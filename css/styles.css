@@ -17,6 +17,9 @@ body{
 --border-project-color: #EEEEEE;
 --border-header:#ECECEC;
 --soc-link-team: #AFB1B8;
+--aside-bck-color: #2F303A;
+--time: 250ms;
+--cubic:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,
@@ -323,7 +326,7 @@ bottom: 0;
 left: 0;
 width: 370px;
 height: 70px;
-background-color: #2F303A;
+background-color: var(--aside-bck-color);
 opacity: 0.8;
 margin: 0;
 }
